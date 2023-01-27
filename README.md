@@ -17,7 +17,8 @@
 - выполнить миграции \
 `sail artisan migrate`
 - запустить сидер \
-`sail artisan db:seed --class=NotebookSeeder` \
+`sail artisan db:seed --class=NotebookSeeder`
 
+##
 
 openapi.yaml - описание апи
