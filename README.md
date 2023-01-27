@@ -16,7 +16,7 @@
 ##
 
 openapi.yaml - описание апи
-- .env файл
+- .env файл \
     DB_CONNECTION=mysql \
     DB_HOST=mysql \
     DB_PORT=3306 \
