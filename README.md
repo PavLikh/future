@@ -1,14 +1,8 @@
 ## Как собрать
 - склонировать проект
 - установить библиотеки \
-`php composer install -o`
-- создать .env файл \
-    DB_CONNECTION=mysql \
-    DB_HOST=mysql \
-    DB_PORT=3306 \
-    DB_DATABASE=laravel \
-    DB_USERNAME=sail \
-    DB_PASSWORD=password
+`composer install -o`
+- создать .env файл
 - установить sail \
 `php artisan sail:install`
 - запустить собрать контейнеры \
@@ -22,3 +16,10 @@
 ##
 
 openapi.yaml - описание апи
+- .env файл
+    DB_CONNECTION=mysql \
+    DB_HOST=mysql \
+    DB_PORT=3306 \
+    DB_DATABASE=laravel \
+    DB_USERNAME=sail \
+    DB_PASSWORD=password
